@@ -54,7 +54,7 @@ When Linux boots, it will be told by the bootloader which partitions to use.
 
 ![Partition A active](update-active-a.png)
 
-When an image is updated, the new version it is written to the inactive partition.
+When an image is updated, the new version is written to the inactive partition.
 When complete, the checksum is verified. If all is well, a flag is set in the bootloader that will cause it to to flip the active and inactive partitions around on next reboot.
 Then the system reboots.
 
